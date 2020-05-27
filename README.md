@@ -9,14 +9,14 @@ Converter cores entre Decimal, Hexadecimal e Zero-um
 ---
 ## Parametros 
 1. Para `decimal()` e `zero_One()`
-    1.1 R = Vermelho
-    1.2 G = Verde
-    1.3 B = Azul
-    1.4 A = Opacidade
-    1.5 RHZ = Qual a conversão a ser feita 1-3
+    * R = Vermelho
+    * G = Verde
+    * B = Azul
+    * A = Opacidade
+    * RHZ = Qual a conversão a ser feita 1-3
 2. Para `hexadecimal()`
-    1.1 H = string '#000000'
-    2.2 RHZ = Conversão 1-3
+    * H = string '#000000'
+    * RHZ = Conversão 1-3
 ##
 ---
 ## Exemplo
