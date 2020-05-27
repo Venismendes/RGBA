@@ -7,12 +7,17 @@ Convert colors beetwen Decimal, Hexadecimal and Zero-one
 Converter cores entre Decimal, Hexadecimal e Zero-um
 
 ---
-## Parametros
-1. R = Vermelho
-1. G = Verde
-1. B = Azul
-1. A = Opacidade
-1. RHZ = Qual a conversão a ser feita 1-3
+## Parametros 
+1. Para `decimal()` e `zero_One()`
+    1.1 R = Vermelho
+    1.2 G = Verde
+    1.3 B = Azul
+    1.4 A = Opacidade
+    1.5 RHZ = Qual a conversão a ser feita 1-3
+2. Para `hexadecimal()`
+    1.1 H = string '#000000'
+    2.2 RHZ = Conversão 1-3
+##
 ---
 ## Exemplo
 
