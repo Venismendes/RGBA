@@ -17,7 +17,7 @@ Converter cores entre Decimal, Hexadecimal e Zero-um
 2. Para `hexadecimal()`
     * H = string '#000000'
     * RHZ = Conversão 1-3
-##
+
 ---
 ## Exemplos
 Código `var = decimal(255, 255, 255, a=1, rhz=2)`
@@ -27,6 +27,7 @@ Código `var = hexadecimal('#FFFfFf', rhz=1)`
 retornará o valor RGBA(1, 1, 1, 1) e armazenará em `var`.
 
 Código `zero_one(0.5, 0.5, 0.5, rhz=3)` mostra no terminal a conversão de RGBA(1, 1, 1, 1) para Decimal e Hexadecimal.
+
 ---
 ## Funções
 
