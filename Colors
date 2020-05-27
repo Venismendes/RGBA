@@ -104,7 +104,7 @@ def hexadecimal(h='#000000', a=1, rhz=3):
 		if i not in '#0123456789ABCDEF':
 			i = 'F'
 #================================
-#                           RGBA
+#                         Decimal
 #================================
 	if len(h) == 7 and h[0] == '#' and h.count('#') == 1:
 		r = h[1:3]
@@ -138,10 +138,10 @@ def hexadecimal(h='#000000', a=1, rhz=3):
 		red = ((16 ** 0) * inth(r[1])) + ((16 ** 1) * inth(r[0]))
 		green = ((16 ** 0) * inth(g[1])) + ((16 ** 1) * inth(g[0]))
 		blue = ((16 ** 0) * inth(b[1])) + ((16 ** 1) * inth(b[0]))
-		rgba = (red, green, blue, a)
+		decimal = (red, green, blue, a)
 	
 	if rhz == 1:
-		return rgba
+		return decimal
 #================================
 #                            0 - 1
 #================================
@@ -154,7 +154,7 @@ def hexadecimal(h='#000000', a=1, rhz=3):
 	if rhz == 2:
 		return zero_one
 	if rhz == 3:
-		print(rgba)
+		print(decimal)
 		print(zero_one)
 #================================
 #Zero-one to Hexadecimal and Decimal
@@ -173,25 +173,25 @@ def zero_one(r=0, g=0, b=0, a=1, rhz=3):
 	if g < 0:
 		g = 0
 	elif g > 1:
-		g = 0
+		g = 1
 		
 	if b < 0:
 		b = 0
-	elif b > 0:
-		b = 0
+	elif b > 1:
+		b = 1
 #================================
-#                          RGBA
+#                         Decimal
 #================================
-	red = r * 255
-	green = g * 255
-	blue = b * 255
+	red = int(r * 255)
+	green = int(g * 255)
+	blue = int(b * 255)
 	
-	rgba = (red, green, blue, a)
+	decimal = (red, green, blue, a)
 	
 	if rhz == 1:
-		return rgba	
+		return decimal	
 #================================
-#                    Hexadecimal
+#                     Hexadecimal
 #================================
 	rgb = (red, green, blue)
 	
@@ -240,9 +240,8 @@ def zero_one(r=0, g=0, b=0, a=1, rhz=3):
 		return hexadecimal
 		
 	if rhz == 3:
-		print(rgba)
+		print(decimal)
 		print(hexadecimal)
 #================================
 #
 #================================
-
