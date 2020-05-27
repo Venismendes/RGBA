@@ -23,12 +23,10 @@ o mesmo se pode fazer com as outras funções
 ---
 ##Funções
 ---
-decimal | hexadecimal | zero_one
----
-RHZ = 1 = hexadecimal | RHZ = 1 = decimal | RHZ = 1 = decimal
----
-RHZ = 2 = zero_one | RHZ = 2 = zero_one | RHZ = 2 = hexadecimal
----
+decimal               | hexadecimal        | zero_one
+RHZ = 1 = hexadecimal | RHZ = 1 = decimal  | RHZ = 1 = decimal
+RHZ = 2 = zero_one    | RHZ = 2 = zero_one | RHZ = 2 = hexadecimal
+---                   |---                 |--- 
 
 
 
