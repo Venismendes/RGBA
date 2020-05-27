@@ -20,14 +20,12 @@ Converter cores entre Decimal, Hexadecimal e Zero-um
 ##
 ---
 ## Exemplo
-
 Código `var = decimal(255, 255, 255, a=1, rhz=2)`
 Retornará a conversão de RGB(255, 255, 255) para Hexadecimal no formato `'#FFFFFF'` e armazenará em `var`
-
 o mesmo se pode fazer com as outras funções
 ---
 ## Funções
----
+
 decimal               | hexadecimal        | zero_one
 ---                   |---                 |---
 RHZ = 1 = hexadecimal | RHZ = 1 = decimal  | RHZ = 1 = decimal
