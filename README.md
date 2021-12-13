@@ -8,7 +8,7 @@ Converter cores entre Decimal, Hexadecimal e Zero-um
 
 ---
 ## Parametros 
-1. Para `decimal()` e `zero_One()`
+1. Para `decimal()` e `zero_one()`
     * R = Vermelho
     * G = Verde
     * B = Azul
